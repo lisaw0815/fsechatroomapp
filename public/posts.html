@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FSE Chat Room</title>
+    <link rel="stylesheet" href="posts-styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- <div class="phone-header">
+            <div class="time">09:52 AM</div>
+            <div class="status-icons">
+                <span class="signal"></span>
+                <span class="wifi"></span>
+                <span class="battery"></span>
+            </div>
+        </div> -->
+        <div class="chat-header">
+            <h2>FSE Chat Room</h2>
+            <form action="/logout" method="post">
+                <button type="submit" class="logout-btn">Logout</button>
+            </form>
+        </div>
+        <div class="chat-box" id="chatBox">
+        </div>
+        <form class="input-box">
+            <input placeholder="Type a message..." name="message">
+            <div class="post-btn-area"><button class="post-btn">Post</button></div>
+        </form>
+    </div>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/main.js"></script>
+
+</body>
+</html>

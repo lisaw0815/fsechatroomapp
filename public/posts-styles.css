@@ -1,0 +1,136 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    width: 300px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    padding: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 550px;
+}
+
+/* .phone-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.time {
+    font-size: 12px;
+    color: #333;
+}
+
+.status-icons {
+    display: flex;
+    gap: 5px;
+}
+
+.signal,
+.wifi,
+.battery {
+    width: 10px;
+    height: 10px;
+    background-color: #333;
+    border-radius: 2px;
+} */
+
+.chat-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #4e7ebb;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+}
+
+h2 {
+    margin: 0;
+    font-size: 18px;
+}
+
+.logout-btn {
+    background-color: #f0a05f;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.chat-box {
+    flex-grow: 1;
+    margin: 10px 0;
+    overflow-y: auto;
+}
+
+.message {
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.message strong {
+    display: block;
+    color: #333;
+}
+
+.timestamp {
+    font-size: 10px;
+    color: #888;
+    float: right;
+}
+
+.input-box {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #e0e0e0;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+input {
+    width: 100%;
+    height: 60px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    box-sizing: border-box;
+    resize: none;
+}
+
+.post-btn-area {
+    display: flex;
+    justify-content: center;
+    background-color: #4e7ebb;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.post-btn {
+    align-self: center;
+    background-color: #f0a05f;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 15px;
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+

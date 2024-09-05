@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    width: 300px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    height: 550px;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+}
+
+/* .phone-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+} */
+
+/* .time {
+    font-size: 12px;
+    color: #333;
+} */
+
+/* .status-icons {
+    display: flex;
+    gap: 5px;
+} */
+
+/* .signal,
+.wifi,
+.battery {
+    width: 10px;
+    height: 10px;
+    background-color: #333;
+    border-radius: 2px;
+} */
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.login-box {
+    display: flex;
+    flex-direction: column;
+    padding-top: 20%;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5%;
+}
+
+.btn-login,
+.btn-register {
+    width: 45%;
+    padding: 10px;
+    background-color: #4e7ebb;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.btn-login:hover,
+.btn-register:hover {
+    background-color: #3b669b;
+}
